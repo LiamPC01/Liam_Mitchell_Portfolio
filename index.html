@@ -12,11 +12,17 @@
     <h3>Dungeon Slash</h3>
     <hr />
     <p>
-        Dungeon Slasher is a game with an emphasis on first person melee combat with a fantasty setting.<br />
-        I am using project managament and source control tools Jira and GitHub.<br />
-        I have also created a Gantt chart to have a development timeline for my project.<br />
+        I created Dungeon Slasher in Unreal Engine primarily using C++ and a small amount of Unreal visual scripting language blueprint. I love melee<br />combat in video games, so I attempted to create my own!<br />
+        <br />
+        The combat is methodical, where the player must time their blocks to the enemy attacks, as blocks cannot be held. Attacking and blocking<br />consume stamina, but attacking costs much more, so the player is punished for spamming their attacks. This encourages a back-and-forth<br />between attacking and blocking.<br />
+        <br />
+        The enemies have basic AI, which allows them to patrol and chase the player when they enter their cone of vision. When within range, the<br />enemy will begin their attack windup, and once they have reached the attack of the animation, a line trace will be drawn forward. If the line<br />trace hits the player, I cast to the player to determine whether they are blocking, and then the appropriate functions are called. The code is<br />shown below. Player attacking works similarly.<br />
+        <br />
+        Check out the GitHub Repository below if you’re interested! To keep on track during this project, I used Jira to prioritise tasks, a Gantt chart to<br />have a complete development timeline and GitHub to have source control.<br />
+
     </p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/JXcfCr_WPZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <img src="Media/DungeonSlashCodeSnippet.png"/>
     <p>To view the <b>Dungeon Slasher</b> GitHub repository <a href="https://github.com/LiamPC01/Dungeon-Slash.git" target="_blank"><b>CLICK HERE</b></a></p>
 
     <h3>Wwise Unreal Project</h3>
