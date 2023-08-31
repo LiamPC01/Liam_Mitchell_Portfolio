@@ -12,27 +12,41 @@
     <h3>Dungeon Slash</h3>
     <hr />
     <p>
-        I created Dungeon Slasher in Unreal Engine primarily using C++ and a small amount of Unreal visual scripting language blueprint. I love melee<br />combat in video games, so I attempted to create my own!<br />
+        I created Dungeon Slasher in Unreal Engine primarily using C++ and a small amount of Unreal visual scripting language blueprint. I love melee<br />
+        combat in video games, so I attempted to create my own!<br />
         <br />
-        The combat is methodical, where the player must time their blocks to the enemy attacks, as blocks cannot be held. Attacking and blocking<br />consume stamina, but attacking costs much more, so the player is punished for spamming their attacks. This encourages a back-and-forth<br />between attacking and blocking.<br />
+        The combat is methodical, where the player must time their blocks to the enemy attacks, as blocks cannot be held. Attacking and blocking<br />
+        consume stamina, but attacking costs much more, so the player is punished for spamming their attacks. This encourages a back-and-forth<br />
+        between attacking and blocking.<br />
         <br />
-        The enemies have basic AI, which allows them to patrol and chase the player when they enter their cone of vision. When within range, the<br />enemy will begin their attack windup, and once they have reached the attack of the animation, a line trace will be drawn forward. If the line<br />trace hits the player, I cast to the player to determine whether they are blocking, and then the appropriate functions are called. The code is<br />shown below. Player attacking works similarly.<br />
+        The enemies have basic AI, which allows them to patrol and chase the player when they enter their cone of vision. When within range, the<br />
+        enemy will begin their attack windup, and once they have reached the attack of the animation, a line trace will be drawn forward.<br />
+        If the line trace hits the player, the enemy class casts to the player class to determine whether they are blocking, and then the appropriate<br />
+        functions are called. The code is shown below. Player attacking works similarly.<br />
         <br />
-        Check out the GitHub Repository below if you’re interested! To keep on track during this project, I used Jira to prioritise tasks, a Gantt chart to<br />have a complete development timeline and GitHub to have source control.<br />
+        Check out the GitHub Repository below if you’re interested! To keep on track during this project, I used Jira to prioritise tasks, a Gantt<br />chart to have a complete development timeline and GitHub to have source control.<br />
 
     </p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/JXcfCr_WPZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <img src="Media/DungeonSlashCodeSnippet.png"/>
     <p>To view the <b>Dungeon Slasher</b> GitHub repository <a href="https://github.com/LiamPC01/Dungeon-Slash.git" target="_blank"><b>CLICK HERE</b></a></p>
 
-    <h3>Wwise Unreal Project</h3>
+    <h3>Wwise Unreal Switch Footstep</h3>
     <hr />
     <p>
-        I became interested in audio programming so I begun learning Wwise and integrating it into Unreal.<br />
-        So far I have implemented footsteps that switch sound depending on what surface is below the player, sounds with attentuation and positioning,<br />
-        and the use of RTPCs to track in game parameters to alter sounds such as having the players heartbeat increase in volume when their health is low.<br />
+        I am interested in audio and music, so I learnt the fundamentals of middleware Wwise and integrated it into Unreal Engine.<br />
+        <br />
+        In this project, I have implemented dynamic footsteps. With each step the player takes, a line trace is drawn directly downwards from the<br /> 
+        character model's foot to the ground. Depending on what physics material the line trace hits a different sound will be played. Sound attenuation<br />
+        and positioning have been applied to a wood burner so that the player can tell what direction the sound is coming from<br />
+        (if they are wearing headphones) and once they are close enough the sound will envelop them. RTPCs (Real-Time Parameter Controls)<br /> 
+        are utilized to play, increase, and decrease the volume of a heartbeat sound depending on the player’s health. Once the player’s health drops below<br /> 
+        a threshold the sound will play quietly but will increase as the player’s health falls and decreases if it rises until it stops playing altogether.<br />
+
+
     </p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/6P7sCnQXsGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <img src="Media/WwiseFootstepBlueprint.png" />
     <p>To view the <b>Unreal Wwise</b> GitHub repository <a href="https://github.com/LiamPC01/Unreal-Wwise" target="_blank"><b>CLICK HERE</b></a></p>
 
     <h3>Hardest Route</h3>
