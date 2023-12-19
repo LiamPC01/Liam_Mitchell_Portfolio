@@ -1,16 +1,32 @@
+
+
+
 body{
     background-color:black;
-    font-family: "Helvetica";
+    font-family: "consolas", "Helvetica";
+    margin-left: 5%;
+    margin-right: 5%;
 }
 h1{
     color: white;
-    
 }
 h2 {
     color: white;
-    
 }
 p {
     color: white;
+
+    margin-left: 1%;
+    margin-right: 1%;
     
 }
+img{
+    
+    margin-left: 1%;
+    margin-right: 1%;
+}
+iframe{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
