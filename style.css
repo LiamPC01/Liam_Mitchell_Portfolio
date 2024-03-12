@@ -1,32 +1,43 @@
 body{
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.904);
     font-family: "consolas", "Helvetica";
-    margin-left: 5%;
-    margin-right: 5%;
-}
-h1{
+    margin-left: 15%;
+    margin-right: 15%;
     color: white;
 }
-h2 {
-    color: white;
-}
-p {
-    color: white;
+
+p, img, iframe {
 
     margin-left: 1%;
     margin-right: 1%;
     
-}
-img{
-    
-    margin-left: 1%;
-    margin-right: 1%;
 }
 
 img:hover { filter: brightness(50%); }
 
-iframe{
-    margin-left: 1%;
-    margin-right: 1%;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.social {
+    max-width: 62.5px;
+    max-height: 62.5px;
+}
+
+.left-header, .right-header {
+    display: flex;
+    gap: 16px;
+}
+
+h1 {
+    margin-bottom: 0px;
+
+}
+
+.intro {
+    font-size: xx-large;
 }
 

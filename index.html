@@ -1,113 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Liam Mitchell Portfolio</title>
-    <link rel = "stylesheet" href = "style.css">
-    <h1><b>LIAM MITCHELL | GRADUATE GAME PROGRAMMER</b></h1>
-    <p><b>Email:</b> liam14mitchell@gmail.com | <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/liam-mitchell-6921b221a/" target="_blank">Liam Mitchell</a></p>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <div class="header">
+        <div class="left-header">
+            <h1><b>LIAM MITCHELL<br>PROGRAMMER</b></h1>
+        </div>
+        <div class="right-header">
+            <a href="https://github.com/LiamPC01" target="_blank">
+                <img class="social" src="Media/github-mark-white.png">
+                <a href="https://www.linkedin.com/in/liam-mitchell-6921b221a/" target="_blank">
+                    <img class="social" src="Media/LinkedIn-Icon-Squircle-Dark.png">
+                </a>
+        </div>
+    </div>
     <hr />
-    <h2>Dungeon Slash</h2>
+    <p class="intro">BSc Games Development graduate experienced in industry-standard game engines and programming
+        languages. Actively learning and seeking opportunities in web development alongside game programming.
 
+    </p>
+    <h2>Dungeon Slash</h2>
     <p>
 
-        I created Dungeon Slasher in Unreal Engine primarily using C++ and a small amount of Unreal visual scripting language blueprint. I love
+        I created Dungeon Slasher in Unreal Engine primarily using C++ and a small amount of Unreal visual scripting
+        language blueprint. I love
         melee combat in video games, so I attempted to create my own!
         <br />
-        The combat is methodical, where the player must time their blocks to the enemy attacks, as blocks cannot be held. Attacking and blocking
-        consume stamina, but attacking costs much more, so the player is punished for spamming their attacks. This encourages a back-and-forth
+        The combat is methodical, where the player must time their blocks to the enemy attacks, as blocks cannot be
+        held. Attacking and blocking
+        consume stamina, but attacking costs much more, so the player is punished for spamming their attacks. This
+        encourages a back-and-forth
         between attacking and blocking.
         <br />
-        The enemies have basic AI, which allows them to patrol and chase the player when they enter their cone of vision. When within range, the
-        enemy will begin their attack windup, and once they have reached the attack of the animation, a line trace will be drawn forward.
-        If the line trace hits the player, the enemy class casts to the player class to determine whether they are blocking, and then the appropriate
+        The enemies have basic AI, which allows them to patrol and chase the player when they enter their cone of
+        vision. When within range, the
+        enemy will begin their attack windup, and once they have reached the attack of the animation, a line trace will
+        be drawn forward.
+        If the line trace hits the player, the enemy class casts to the player class to determine whether they are
+        blocking, and then the appropriate
         functions are called. The code is shown below. Player attacking works similarly.
         <br />
-        Check out the GitHub Repository below if you’re interested! To keep on track during this project, I used Jira to prioritise tasks, a Gantt chart to have a complete development timeline and GitHub to have source control.
+        Check out the GitHub Repository below if you’re interested! To keep on track during this project, I used Jira to
+        prioritise tasks, a Gantt chart to have a complete development timeline and GitHub to have source control.
 
     </p>
 
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/JXcfCr_WPZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/JXcfCr_WPZY" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 
 
-    <a href="Media/DungeonSlashLinetrace.png" target="_blank">
-        <img width="739.13 " height="450" src="Media/DungeonSlashLinetrace.png" />
+    <a href="Media/DungeonSlashLineTrace.PNG" target="_blank">
+        <img width="739.13 " height="450" src="Media/DungeonSlashLineTrace.PNG" />
     </a>
 
-    <p>To view the <b>Dungeon Slash</b> GitHub repository <a href="https://github.com/LiamPC01/Dungeon-Slash.git" target="_blank"><b>CLICK HERE</b></a></p>
+    <p>To view the <b>Dungeon Slash</b> GitHub repository <a href="https://github.com/LiamPC01/Dungeon-Slash.git"
+            target="_blank"><b>CLICK HERE</b></a></p>
     <hr />
-    <h2>Mini Jame Gam - Box Game (Coming to Steam! Eventually...)</h2>
+    <h2>Mini Jame Gam - Box Game</h2>
 
     <p>
         For the “Mini Jame Game” I worked with another programmer to create the creatively named Box Game.<br />
         The player uses a vacuum gun to hoover boxes which they can then use as projectiles.<br />
         We have continued to work on this project after the game jam ended and I have recently been working<br />
-        on a new Portal inspired level which uses buttons which require x number of boxes to open the connected door.<br />
+        on a new Portal inspired level which uses buttons which require x number of boxes to open the connected
+        door.<br />
         Developed in Unreal Engine with C++<br />
 
     </p>
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/Q9tnPRjdrHo?si=FFg0gPWCDdIPVkLn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/RvvFi-AtjAM?si=HIHRKRC4f1aE1L6H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p>To view the <b>Box Game</b> Itch.io page <a href="https://charliemason01.itch.io/box-game" target="_blank"><b>CLICK HERE</b></a></p>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/Q9tnPRjdrHo?si=FFg0gPWCDdIPVkLn"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/RvvFi-AtjAM?si=HIHRKRC4f1aE1L6H"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <p>To view the <b>Box Game</b> Itch.io page <a href="https://charliemason01.itch.io/box-game"
+            target="_blank"><b>CLICK HERE</b></a></p>
     <hr />
     <h2>Wwise Unreal Switch Footstep</h2>
 
     <p>
-        I am interested in audio and music, so I learnt the fundamentals of middleware Wwise and integrated it into Unreal Engine.
+        I am interested in audio and music, so I learnt the fundamentals of middleware Wwise and integrated it into
+        Unreal Engine.
         <br />
-        In this project, I have implemented dynamic footsteps. With each step the player takes, a line trace is drawn directly downwards from the
-        character model's foot to the ground. Depending on what physics material the line trace hits a different sound will be played. Sound
-        attenuation and positioning have been applied to a wood burner so that the player can tell what direction the sound is coming from
-        (if they are wearing headphones) and once they are close enough the sound will envelop them. RTPCs (Real-Time Parameter Controls)
-        are utilized to play, increase, and decrease the volume of a heartbeat sound depending on the player’s health. Once the player’s health
-        drops below a threshold the sound will play quietly but will increase as the player’s health falls and decreases if it rises until it stops
+        In this project, I have implemented dynamic footsteps. With each step the player takes, a line trace is drawn
+        directly downwards from the
+        character model's foot to the ground. Depending on what physics material the line trace hits a different sound
+        will be played. Sound
+        attenuation and positioning have been applied to a wood burner so that the player can tell what direction the
+        sound is coming from
+        (if they are wearing headphones) and once they are close enough the sound will envelop them. RTPCs (Real-Time
+        Parameter Controls)
+        are utilized to play, increase, and decrease the volume of a heartbeat sound depending on the player’s health.
+        Once the player’s health
+        drops below a threshold the sound will play quietly but will increase as the player’s health falls and decreases
+        if it rises until it stops
         playing altogether.
 
 
     </p>
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/6P7sCnQXsGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/6P7sCnQXsGU" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 
     <br>
-    <a href="Media/WwiseFootstepBlueprint.png" target="_blank">
-        <img width=800 height=212.49 src="Media/WwiseFootstepBlueprint.png" />
+    <a href="Media/WwiseFootstepBlueprint.PNG" target="_blank">
+        <img width=800 height=212.49 src="Media/WwiseFootstepBlueprint.PNG" />
     </a>
 
-    <p>To view the <b>Unreal Wwise Project</b> GitHub repository <a href="https://github.com/LiamPC01/Unreal-Wwise" target="_blank"><b>CLICK HERE</b></a></p>
+    <p>To view the <b>Unreal Wwise Project</b> GitHub repository <a href="https://github.com/LiamPC01/Unreal-Wwise"
+            target="_blank"><b>CLICK HERE</b></a></p>
     <hr />
     <h2>Hardest Route</h2>
 
     <p>
         Hardest Route was created by a multi-disciplinary team for the 2023 Global Game Jam.
         <br />
-        I worked collaboratively with another programmer, two asset artists and a concept artist. We started by brainstorming ideas,
-        settled on a slight twist to the given theme “root”, and decided to go with “route”. We wanted the game to stand out and be different,
-        and I believe we accomplished this with our unusual game objective of taking as much damage as possible. The player takes on the role
-        of a masochist who earns points when they take damage. Therefore, it is their objective to take as much damage as possible before the
-        timer runs out. Enemies become exhausted from attacking after a while so their stamina acts as health. To reach the highest scores,
+        I worked collaboratively with another programmer, two asset artists and a concept artist. We started by
+        brainstorming ideas,
+        settled on a slight twist to the given theme “root”, and decided to go with “route”. We wanted the game to stand
+        out and be different,
+        and I believe we accomplished this with our unusual game objective of taking as much damage as possible. The
+        player takes on the role
+        of a masochist who earns points when they take damage. Therefore, it is their objective to take as much damage
+        as possible before the
+        timer runs out. Enemies become exhausted from attacking after a while so their stamina acts as health. To reach
+        the highest scores,
         the player must find the best route which contains the most enemies!
         <br />
         Our Game was featured first in the Norwich University of the Arts Global Game Jam showreel!
 
     </p>
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/1qGSmSfHons" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p>To view the <b>Hardest Route</b> download page <a href="https://globalgamejam.org/2023/games/hardest-route-1" target="_blank"><b>CLICK HERE</b></a></p>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/1qGSmSfHons" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <p>To view the <b>Hardest Route</b> download page <a href="https://globalgamejam.org/2023/games/hardest-route-1"
+            target="_blank"><b>CLICK HERE</b></a></p>
     <hr />
     <h2>Raycasting in JavaScript with P5</h2>
 
     <p>
-        Being a fan of early “3D” shooters such as Doom and Blood, I thought I would attempt to create a raycasting engine for one of my university
-        projects in JavaScript using the P5 library. I mainly studied raycasting by reading the Wolfenstein 3D Black Book and purchasing a course on
-        Pikuma.com. This project was exciting to work on and allowed me to brush up on basic mathematics, as raycasting engines require trigonometry
+        Being a fan of early “3D” shooters such as Doom and Blood, I thought I would attempt to create a raycasting
+        engine for one of my university
+        projects in JavaScript using the P5 library. I mainly studied raycasting by reading the Wolfenstein 3D Black
+        Book and purchasing a course on
+        Pikuma.com. This project was exciting to work on and allowed me to brush up on basic mathematics, as raycasting
+        engines require trigonometry
         when calculating the direction of each ray.
 
     </p>
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/N-sMKHeGCHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p>To view the <b>Raycasting in JavaScript with P5</b> GitHub repository <a href="https://github.com/LiamPC01/Raycasting-Prototype" target="_blank"><b>CLICK HERE</b></a></p>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/N-sMKHeGCHs" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <p>To view the <b>Raycasting in JavaScript with P5</b> GitHub repository <a
+            href="https://github.com/LiamPC01/Raycasting-Prototype" target="_blank"><b>CLICK HERE</b></a></p>
 
 
 </body>
+
 </html>
