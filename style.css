@@ -10,6 +10,7 @@ body{
 
 
 img:hover { filter: brightness(50%); }
+a:hover { filter: brightness(50%); }
 
 .header {
     display: flex;
