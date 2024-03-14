@@ -26,6 +26,18 @@ img:hover { filter: brightness(50%); }
 .left-header, .right-header {
     display: flex;
     gap: 16px;
+    align-items:center;
+}
+
+.right-header .resume {
+    border: solid white 2px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.right-header p {
+    margin: 0px;
 }
 
 h1 {
