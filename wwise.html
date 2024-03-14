@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wwise Unreal Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="project">
+        <h1>Wwise Unreal Project</h1>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/6P7sCnQXsGU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <a href="Media/WwiseFootstepBlueprint.PNG" target="_blank">
+            <img width=800 height=212.49 src="Media/WwiseFootstepBlueprint.PNG" />
+        </a>
+        <br>
+
+        I am interested in audio and music, so I learnt the fundamentals of middleware Wwise and integrated it
+        into
+        Unreal Engine.
+        <br />
+        In this project, I have implemented dynamic footsteps. With each step the player takes, a line trace is
+        drawn
+        directly downwards from the
+        character model's foot to the ground. Depending on what physics material the line trace hits a different
+        sound
+        will be played. Sound
+        attenuation and positioning have been applied to a wood burner so that the player can tell what
+        direction
+        the
+        sound is coming from
+        (if they are wearing headphones) and once they are close enough the sound will envelop them. RTPCs
+        (Real-Time
+        Parameter Controls)
+        are utilized to play, increase, and decrease the volume of a heartbeat sound depending on the player’s
+        health.
+        Once the player’s health
+        drops below a threshold the sound will play quietly but will increase as the player’s health falls and
+        decreases
+        if it rises until it stops
+        playing altogether.
+        </p>
+
+        <p>To view the <b>Unreal Wwise Project</b> GitHub repository <a href="https://github.com/LiamPC01/Unreal-Wwise"
+                target="_blank"><b>CLICK HERE</b></a>
+        </p>
+    </div>
+</body>
+
+</html>
