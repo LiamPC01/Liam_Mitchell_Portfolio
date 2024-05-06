@@ -103,7 +103,21 @@ iframe {
     /* border: solid red 2px; */
     background-color: rgba(128, 128, 128, 0.178);
     padding: 16px;
+    display: flex;
+    flex-direction: column;
     
+}
+
+.project-content{
+    display: flex;
+}
+
+.project-text {
+    width: 70%;
+}
+
+div {
+    /* border: solid green 2px; */
 }
 
 h2 {
