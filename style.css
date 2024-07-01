@@ -15,6 +15,13 @@ img:hover {
 
 a:hover {
     filter: brightness(50%);
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+
 }
 
 .header {
@@ -105,10 +112,11 @@ iframe {
     padding: 16px;
     display: flex;
     flex-direction: column;
-    
+
+
 }
 
-.project-content{
+.project-content {
     display: flex;
 }
 
@@ -132,6 +140,36 @@ a {
     color: white;
 }
 
-button a{
+.textLink {
+    text-decoration: underline;
+    font-weight: bolder;
+    
+}
+
+button a {
     color: black;
+}
+
+.backBtn {
+    background-color: rgba(128, 128, 128, 0.178);
+    font-size: 30px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    position: fixed;
+}
+
+p {
+
+    max-width: 75ch;
+
+}
+
+.skillBtns button {
+    background-color: rgba(128, 128, 128, 0.178);
+    font-size: 15px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    margin-top: 5px;
 }
