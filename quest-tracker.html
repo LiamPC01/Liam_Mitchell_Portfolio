@@ -26,29 +26,66 @@
         </div>
         <h2>Project Objective</h2>
         <p>
-            To develop a modular To-Do List application that allows users to create, manage, and complete tasks. Built
-            with HTML, CSS, and JavaScript, the app is bundled with Webpack for efficiency.
+            To develop a modular To-Do List application that allows users to create, manage, and complete tasks.<br><br>
+
+            Built with HTML, CSS, and JavaScript, the app is bundled with Webpack for efficiency.<br>
+
         </p>
         <h2>The Process</h2>
         <p>
             I began by setting up the project environment with Webpack, ensuring an efficient build process for modular
-            JavaScript. The application was structured with separate modules to handle task creation, completion, and
-            filtering, enabling scalability and maintainability. The UI was styled with CSS for a clean and intuitive
-            design. Using DOM manipulation and event listeners, I implemented dynamic features such as marking tasks as
-            complete and automatically sorting tasks by date. Finally, the project was deployed to GitHub Pages for
-            public access.
+            JavaScript.<br><br>
 
+            The application was structured with separate modules to handle task creation, completion, and filtering,
+            enhancing scalability and maintainability.<br><br>
 
+            The UI was styled with CSS for a clean and intuitive design.<br><br>
+
+            Using DOM manipulation and event listeners, I implemented dynamic features such as marking tasks as complete
+            and automatically sorting tasks by date.<br><br>
+
+            Finally, the project was deployed to GitHub Pages for public access.<br>
+
+        </p>
+
+        <div class="media-container">
+            <a href="Media/saveSelectedProject.png" target="_blank">
+                <img src="Media/saveSelectedProject.png">
+            </a>
+
+        </div>
+        
+        <p>In the above code snippet, I first import the selected project object from my <b>projectManager</b>
+            module.<br><br>
+
+            In the <b>saveSelectedProject</b> function, I first check whether the array of todos in my project has more
+            than 0 elements. If it does, we can begin looping through the array.<br><br>
+
+            Each todo is then assigned a key for each of its member variables (name, description, due date), which will
+            look something like <b>inboxTaskName[4]</b> with the appropriate value assigned to it.<br><br>
+
+            Once the loop has ended, the size of the array is saved to local storage. This ensures that later, when we
+            want to retrieve our projects using the <b>loadSelectedProject</b> function, we know how many iterations are
+            needed.<br><br>
+
+            You may have noticed that, in addition to the task due date, there is also a timestamp. The timestamp is an
+            integer initialized with a size proportional to the task due date. This makes it simple to keep the todos
+            sorted in order of date.<br>
         </p>
 
 
         <h2>The Outcome</h2>
         <p>
             The final product is a fully functional To-Do List app with a clean, modular codebase and efficient task
-            management features. The app automatically sorts tasks by date, ensuring a prioritized and organized
-            experience. The app provides a user-friendly interface and is hosted on GitHub Pages for easy accessibility.
+            management features.<br><br>
+
+            The app automatically sorts tasks by date, ensuring a prioritized and organized experience.<br><br>
+
+            It provides a user-friendly interface and is hosted on GitHub Pages for easy accessibility.<br><br>
+
             Key skills demonstrated include Webpack configuration, JavaScript modularization, DOM manipulation, and
-            deployment via GitHub Pages.
+            deployment via GitHub Pages.<br>
+
         </p>
 
         <p>

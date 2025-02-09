@@ -129,6 +129,7 @@ iframe {
     /* margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 16px; */
+    font-size: 18px;
 
 }
 
@@ -185,6 +186,7 @@ div {
 
 h2 {
     margin: 0px;
+    font-size: 32px;
 }
 
 
