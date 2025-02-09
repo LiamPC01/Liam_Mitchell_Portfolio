@@ -19,6 +19,7 @@ div {
 
 img:hover {
     /* filter: brightness(50%); */
+    filter: blur(3px);
 }
 
 a:hover {
